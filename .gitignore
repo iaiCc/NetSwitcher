@@ -1,0 +1,35 @@
+# 编译产物
+*.exe
+*.dll
+*.pdb
+*.obj
+*.ilk
+*.exp
+*.lib
+*.res
+*.tlb
+
+# 视觉 Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Windows 缩略图 / 系统文件
+Thumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# 运行时生成在本目录的临时文件（正常运行配置在 %APPDATA%\NetSwitcher，不在仓库）
+*_priv.txt
+NetSwitcher_crash.txt
+build.rsp
+
+# 归档 / 备份
+_DSH归档/
+*.bak
+*.zip
