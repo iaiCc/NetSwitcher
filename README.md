@@ -26,23 +26,35 @@
 
 ## 界面速览
 
-```
-┌──────────────────────────────────────────┐
-│  网络切换                        ⚙ ↻ — ✕ │  ← 蓝色顶栏
-│  外网 · 上网   WLAN / 192.168.x.x         │
-│  内网 · 资料   以太网 / 10.x.x.x           │
-│  两条线并存：上网走 WLAN，内网走 以太网     │
-├──────────────────────────────────────────┤
-│  手机热点  3 个          左键连接 / 右键选项│
-│  ┌────────────┐ ┌────────────┐            │
-│  │ 📶 使用中   │ │ 📶 在附近   │            │
-│  └────────────┘ └────────────┘            │
-│  内网 / 有线  2 个          右键打开选项    │
-│  ┌────────────┐ ┌────────────┐            │
-│  │ 外网  网关  │ │ 内网  专线  │            │
-│  └────────────┘ └────────────┘            │
-└──────────────────────────────────────────┘
-```
+<div align="center">
+<table width="100%" style="max-width:560px; border:collapse; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+<tr><td style="background:linear-gradient(135deg,#467DE9,#3566D8); color:#fff; border-radius:14px 14px 0 0; padding:16px 18px;">
+
+<div style="font-size:15px; font-weight:700; margin-bottom:12px;">网络切换 <span style="float:right; font-weight:400; opacity:.8;">⚙ &nbsp;↻ &nbsp;— &nbsp;✕</span></div>
+<div style="font-size:11px; opacity:.85; letter-spacing:.5px;">外网 · 上网</div>
+<div style="font-size:14px; font-weight:600; margin:1px 0 8px;">WLAN &nbsp;<span style="opacity:.75; font-size:11px; font-weight:400;">192.168.x.x</span></div>
+<div style="font-size:11px; opacity:.85; letter-spacing:.5px;">内网 · 资料</div>
+<div style="font-size:14px; font-weight:600; margin:1px 0 8px;">以太网 &nbsp;<span style="opacity:.75; font-size:11px; font-weight:400;">10.x.x.x</span></div>
+<div style="font-size:11px; opacity:.8; border-top:1px solid rgba(255,255,255,.25); padding-top:8px;">两条线并存：上网走 Wi-Fi，内网资料走有线</div>
+
+</td></tr>
+<tr><td style="background:#F5F7FB; border:1px solid #EDF0F5; border-top:0; border-radius:0 0 14px 14px; padding:14px 18px;">
+
+<div style="font-size:12px; font-weight:700; color:#1F2430; margin-bottom:8px;">📶 手机热点 <span style="font-weight:400; color:#8A94A6; font-size:10px;">3 个 · 左键连接 / 右键选项</span></div>
+<div style="margin-bottom:14px;">
+<span style="display:inline-block; background:#fff; border:1px solid #EDF0F5; border-radius:8px; padding:8px 14px; margin:0 6px 6px 0; color:#1F2430; font-size:12px;">📶 使用中 &nbsp;<span style="background:#E9F6F0; color:#2EA87F; border-radius:10px; padding:1px 8px; font-size:10px;">使用中</span></span>
+<span style="display:inline-block; background:#fff; border:1px solid #EDF0F5; border-radius:8px; padding:8px 14px; margin:0 6px 6px 0; color:#1F2430; font-size:12px;">📶 在附近 &nbsp;<span style="background:#EAEFFC; color:#3566D8; border-radius:10px; padding:1px 8px; font-size:10px;">在附近</span></span>
+</div>
+
+<div style="font-size:12px; font-weight:700; color:#1F2430; margin-bottom:8px;">🔌 内网 / 有线 <span style="font-weight:400; color:#8A94A6; font-size:10px;">2 个 · 右键打开选项</span></div>
+<div>
+<span style="display:inline-block; background:#fff; border:1px solid #EDF0F5; border-radius:8px; padding:8px 14px; margin:0 6px 6px 0; color:#1F2430; font-size:12px;">🟢 外网 &nbsp;<span style="background:#EAEFFC; color:#3566D8; border-radius:10px; padding:1px 8px; font-size:10px;">外网</span></span>
+<span style="display:inline-block; background:#EAF6F0; border:1px solid #9CD9BE; border-radius:8px; padding:8px 14px; margin:0 6px 6px 0; color:#1F2430; font-size:12px;">🟢 内网 &nbsp;<span style="background:#E9F6F0; color:#2EA87F; border-radius:10px; padding:1px 8px; font-size:10px;">专线</span></span>
+</div>
+
+</td></tr>
+</table>
+</div>
 
 ---
 
